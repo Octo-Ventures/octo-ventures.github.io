@@ -27,12 +27,11 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/Octo-Ventures/octo-ventures.github.io">
-    <img src="./media/images/ts_zachary_bw.jpg" alt="Logo" width="300" height="300">
+    <img src="./media/images/octo_ventures.png" alt="Logo" width="300" height="300">
   </a>
 
 <h3 align="center">Octo Ventures Website</h3>
