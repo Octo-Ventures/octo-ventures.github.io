@@ -31,23 +31,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/zachreborn/resume_website">
+  <a href="https://github.com/Octo-Ventures/octo-ventures.github.io">
     <img src="./media/images/ts_zachary_bw.jpg" alt="Logo" width="300" height="300">
   </a>
 
-<h3 align="center">resume_website</h3>
+<h3 align="center">Octo Ventures Website</h3>
 
   <p align="center">
     An up to date resume which captures my philosphy, career, skills, projects, and accolades in a meaningful way. Allows recruiters, hiring managers, and leadership team's to see who I am at a quick glance or read through.
     <br />
-    <a href="https://github.com/zachreborn/resume_website"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Octo-Ventures/octo-ventures.github.io"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/zachreborn/resume_website">View Demo</a>
+    <a href="https://github.com/Octo-Ventures/octo-ventures.github.io">View Demo</a>
     ·
-    <a href="https://github.com/zachreborn/resume_website/issues">Report Bug</a>
+    <a href="https://github.com/Octo-Ventures/octo-ventures.github.io/issues">Report Bug</a>
     ·
-    <a href="https://github.com/zachreborn/resume_website/issues">Request Feature</a>
+    <a href="https://github.com/Octo-Ventures/octo-ventures.github.io/issues">Request Feature</a>
   </p>
 </div>
 
@@ -119,7 +119,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/zachreborn/resume_website.git
+   git clone https://github.com/Octo-Ventures/octo-ventures.github.io.git
    ```
 2. Build docker container image
    ```sh
@@ -158,7 +158,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Zachary Hill - [![LinkedIn][linkedin-shield]][linkedin-url] - zhill@zacharyhill.co
 
-Project Link: [https://github.com/zachreborn/resume_website](https://github.com/zachreborn/resume_website)
+Project Link: [https://github.com/Octo-Ventures/octo-ventures.github.io](https://github.com/Octo-Ventures/octo-ventures.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,19 +176,19 @@ Project Link: [https://github.com/zachreborn/resume_website](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- [workflow-build-shield]: https://img.shields.io/github/actions/workflow/status/zachreborn/resume_website/main.yml?style=for-the-badge -->
-<!-- [workflow-build-url]: https://github.com/zachreborn/resume_website/actions/workflows/main.yml -->
+<!-- [workflow-build-url]: https://github.com/Octo-Ventures/octo-ventures.github.io/actions/workflows/main.yml -->
 [github-deployment-shield]: https://img.shields.io/github/deployments/zachreborn/resume_website/prod?style=for-the-badge
-[github-deployment-url]: https://github.com/zachreborn/resume_website/deployments/activity_log?environment=prod
+[github-deployment-url]: https://github.com/Octo-Ventures/octo-ventures.github.io/deployments/activity_log?environment=prod
 [contributors-shield]: https://img.shields.io/github/contributors/zachreborn/resume_website.svg?style=for-the-badge
-[contributors-url]: https://github.com/zachreborn/resume_website/graphs/contributors
+[contributors-url]: https://github.com/Octo-Ventures/octo-ventures.github.io/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/zachreborn/resume_website.svg?style=for-the-badge
-[forks-url]: https://github.com/zachreborn/resume_website/network/members
+[forks-url]: https://github.com/Octo-Ventures/octo-ventures.github.io/network/members
 [stars-shield]: https://img.shields.io/github/stars/zachreborn/resume_website.svg?style=for-the-badge
-[stars-url]: https://github.com/zachreborn/resume_website/stargazers
+[stars-url]: https://github.com/Octo-Ventures/octo-ventures.github.io/stargazers
 [issues-shield]: https://img.shields.io/github/issues/zachreborn/resume_website.svg?style=for-the-badge
-[issues-url]: https://github.com/zachreborn/resume_website/issues
+[issues-url]: https://github.com/Octo-Ventures/octo-ventures.github.io/issues
 [license-shield]: https://img.shields.io/github/license/zachreborn/resume_website.svg?style=for-the-badge
-[license-url]: https://github.com/zachreborn/resume_website/blob/master/LICENSE
+[license-url]: https://github.com/Octo-Ventures/octo-ventures.github.io/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/zachary-hill-1b1b5b1a0/
 [product-screenshot]: ./media/images/screenshot.png
