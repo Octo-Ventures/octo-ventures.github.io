@@ -1,5 +1,5 @@
 * {
-    background-color: #263238;
+    background-color: #1d1427;
     box-sizing: border-box;
     color: #eceff1;
     font-family: "Fira Sans", sans-serif;
@@ -30,7 +30,7 @@
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     margin-top: 2.5rem;
-    color: #80cbc4;
+    color: #fd6742;
   }
   
   h5,
@@ -49,7 +49,7 @@
   
   /* Header Navbar */
   header {
-    background-color: #263238;
+    background-color: #1d1427;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -208,7 +208,7 @@
   
   .greetings {
     align-items: center;
-    background-color: #263238;
+    background-color: #1d1427;
     color: #eceff1;
     display: flex;
     flex-direction: row;
@@ -418,7 +418,7 @@
   
   .footer {
     align-items: center;
-    background-color: #263238;
+    background-color: #1d1427;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
