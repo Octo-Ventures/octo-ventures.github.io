@@ -15,7 +15,7 @@
   }
   
   h2 {
-    color: #ff479c;
+    color: #42d8fd;
     font-size: 2rem;
     font-weight: 200;
   }
@@ -135,7 +135,7 @@
     content: "";
     height: 0.125rem;
     width: 0%;
-    background: #80cbc4;
+    background: #fd6742;
     position: absolute;
     left: 0;
     bottom: -0.3125rem;
@@ -231,11 +231,11 @@
   .greetings-emphasis {
     font-weight: 300;
     font-size: 120%;
-    color: #80cbc4;
+    color: #fd6742;
   }
   
   #headshot-image {
-    border: 0.125rem solid #80cbc4;
+    border: 0.125rem solid #fd6742;
     border-radius: 5%;
     max-height: 40em;
   }
@@ -248,7 +248,7 @@
     min-width: 30%;
     max-width: 50%;
     height: auto;
-    border: 0.125rem solid #80cbc4;
+    border: 0.125rem solid #fd6742;
     border-radius: 5%;
   }
   
@@ -284,7 +284,7 @@
   }
   
   .dot {
-    color: #ff479c;
+    color: #42d8fd;
     font-size: 1.75rem;
     font-weight: 200;
   }
@@ -298,7 +298,7 @@
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     margin-top: 2.5rem;
-    color: #80cbc4;
+    color: #fd6742;
   }
   
   .experience.content {
@@ -315,7 +315,7 @@
   
   .experience-title {
     margin-top: 0.5rem;
-    color: #ff479c;
+    color: #42d8fd;
   }
   
   .experience-summary {
@@ -358,7 +358,7 @@
   }
   
   meter::-webkit-meter-optimum-value {
-    background-color: #80cbc4;
+    background-color: #fd6742;
   }
   
   /* Firefox meter */
@@ -369,7 +369,7 @@
   }
   
   meter::-moz-meter-optimum::-moz-meter-bar {
-    background-color: #80cbc4;
+    background-color: #fd6742;
   }
   
   .education-header {
