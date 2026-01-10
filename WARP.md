@@ -21,4 +21,4 @@ The project uses a simple static site structure:
 ## Important Notes
 - All HTML pages share common navigation and footer patterns - keep these consistent across files
 - The site is deployed via GitHub Pages
-- CSS is centralized in a single stylesheet; be careful with selector specificity to avoid unintended cascade effects
+- CSS is centralized in a single style sheet; be careful with selector specificity to avoid unintended cascade effects
