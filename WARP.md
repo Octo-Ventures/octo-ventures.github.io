@@ -8,7 +8,7 @@ Octo Ventures is a static HTML/CSS portfolio site hosted on GitHub Pages. The si
 ## Architecture
 The project uses a simple static site structure:
 - **Root HTML files** (`index.html`, `about.html`, `services.html`, `testimonials.html`, `contact.html`) - main page templates using a common navigation header and footer
-- **CSS** (`css/style.css`) - centralized style sheet for all pages; uses responsive design patterns
+- **CSS** (`css/style.css`) - centralized style sheets for all pages; uses responsive design patterns
 - **Media assets** (`media/images/`) - logo and other images referenced across pages
 - **GitHub Pages deployment** - configured via CNAME file to serve at `zacharhill.co`
 - **CI/CD** (`.github/workflows/test.yml`) - runs super-linter on push and pull requests to main/master branches

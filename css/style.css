@@ -1,12 +1,12 @@
 * {
-    background-color: #1d1427;
-    box-sizing: border-box;
-    color: #eceff1;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 100;
-    margin: 0;
-    padding: 0;
-  }
+  background-color: #1d1427;
+  box-sizing: border-box;
+  color: #eceff1;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
   
   h1 {
     color: #eceff1;
