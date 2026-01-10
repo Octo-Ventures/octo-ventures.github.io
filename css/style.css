@@ -416,6 +416,112 @@
     margin: 1rem 2rem;
   }
   
+  /* Service Cards and Grid */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 100%;
+  }
+  
+  .service-card {
+    background-color: #2a1f3d;
+    border: 0.125rem solid #42d8fd;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    background-color: #3d2a52;
+    border-color: #fd6742;
+    box-shadow: 0 0.5rem 1rem rgba(253, 103, 66, 0.2);
+  }
+  
+  .service-card h3 {
+    color: #42d8fd;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  
+  .service-card p {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* CTA Buttons */
+  .cta-button {
+    display: inline-block;
+    background-color: #fd6742;
+    color: #1d1427;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #42d8fd;
+    color: #1d1427;
+    transform: translateY(-0.125rem);
+  }
+  
+  .service-card .cta-button {
+    align-self: flex-start;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #1d1427 0%, #2a1f3d 100%);
+    padding: 4rem 1.5rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .hero h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Service Detail Page */
+  .service-detail {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .service-detail h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .benefits-list, .use-cases-list {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .benefits-list li, .use-cases-list li {
+    margin: 0.75rem 0;
+    color: #eceff1;
+  }
+  
   .footer {
     align-items: center;
     background-color: #1d1427;
@@ -504,6 +610,21 @@
   
     .footer {
       padding: 1.25rem 0;
+    }
+  
+    .services-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+  
+    .hero {
+      padding: 2rem 1rem;
+    }
+  
+    .service-detail {
+      margin: 2rem auto;
+      padding: 0 1rem;
     }
   }
   
