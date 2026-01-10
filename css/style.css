@@ -581,6 +581,61 @@
     font-weight: 200;
   }
   
+  /* Contact Page */
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 5rem auto;
+    padding: 0 1.5rem;
+    gap: 4rem;
+  }
+  
+  .contact-content {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .contact-content h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-content h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-content > p:first-of-type {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+  
+  .genesys-widget-container {
+    margin: 2rem 0;
+  }
+  
+  .contact-note {
+    font-size: 0.95rem;
+    color: #42d8fd;
+    margin-top: 2rem;
+  }
+  
+  .contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+  }
+  
+  .contact-mascot {
+    max-width: 100%;
+    height: auto;
+    border: 0.125rem solid #fd6742;
+    border-radius: 5%;
+    max-height: 50vh;
+  }
+  
   .footer {
     align-items: center;
     background-color: #1d1427;
@@ -690,6 +745,16 @@
       grid-template-columns: 1fr;
       gap: 1.5rem;
       padding: 1rem;
+    }
+  
+    .contact-container {
+      flex-direction: column;
+      gap: 2rem;
+      margin: 2rem auto;
+    }
+  
+    .contact-mascot {
+      max-height: 35vh;
     }
   }
   
