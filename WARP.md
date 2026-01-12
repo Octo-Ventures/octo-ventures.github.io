@@ -3,7 +3,7 @@
 This file provides guidance to WARP (warp.dev) when working with code in this repository.
 
 ## Project Overview
-Octo Ventures is a static HTML/CSS portfolio site hosted on GitHub Pages. The site includes multiple pages (index, about, services, testimonials, contact) with responsive design and integrated chat functionality via Genesys.
+Octo Ventures is a static HTML/CSS portfolio site hosted on GitHub Pages. The site includes multiple pages (index, about, services, testimonials, contact) with responsive design.
 
 ## Architecture
 The project uses a simple static site structure:
