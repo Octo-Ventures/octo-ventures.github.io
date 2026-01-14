@@ -37,7 +37,7 @@
 <h3 align="center">Octo Ventures Website</h3>
 
   <p align="center">
-    An up to date resume which captures my philosphy, career, skills, projects, and accolades in a meaningful way. Allows recruiters, hiring managers, and leadership team's to see who I am at a quick glance or read through.
+    An up to date resume which captures my philosophy, career, skills, projects, and accolades in a meaningful way. Allows recruiters, hiring managers, and leadership team's to see who I am at a quick glance or read through.
     <br />
     <a href="https://github.com/Octo-Ventures/octo-ventures.github.io"><strong>Explore the docs »</strong></a>
     <br />
