@@ -544,7 +544,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 .service-card:hover {
   background-color: #3d2a52;
   border-color: #fd6742;
-  box-shadow: 0 0.5rem 1rem rgba(253, 103, 66, 0.2);
+  box-shadow: 0 0.5rem 1rem rgb(253 103 66 / 20%);
 }
 
 .service-card h3 {
@@ -656,7 +656,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 .testimonial-card:hover {
   background-color: #3d2a52;
   border-color: #fd6742;
-  box-shadow: 0 0.5rem 1rem rgba(253, 103, 66, 0.2);
+  box-shadow: 0 0.5rem 1rem rgb(253 103 66 / 20%);
 }
 
 .testimonial-content {
