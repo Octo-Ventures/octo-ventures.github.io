@@ -1,14 +1,15 @@
-# WARP.md
+# AGENTS.md
 
-This file provides guidance to WARP (warp.dev) when working with code in this repository.
+This file provides guidance to AI coding agents (Warp, Claude Code, Cursor, Codex, and others) when working with code in this repository.
 
 ## Project Overview
-Octo Ventures is a static HTML/CSS portfolio site hosted on GitHub Pages. The site includes multiple pages (index, about, services, testimonials, contact) with responsive design.
+Octo Ventures is a static HTML/CSS portfolio site hosted on GitHub Pages. The site includes multiple top-level pages (index, about, services, testimonials, contact) plus a set of detailed service pages, all with responsive design.
 
 ## Architecture
 The project uses a simple static site structure:
 - **Root HTML files** (`index.html`, `about.html`, `services.html`, `testimonials.html`, `contact.html`) - main page templates using a common navigation header and footer
-- **CSS** (`css/style.css`) - centralized style sheets for all pages; uses responsive design patterns
+- **Service detail pages** (`services/cio-cto.html`, `services/ai-data-ml.html`, `services/cloud.html`, `services/devsecops.html`) - in-depth pages for each service offering, linked from `services.html`
+- **CSS** (`css/style.css`) - centralized style sheet for all pages; uses responsive design patterns
 - **Media assets** (`media/images/`) - logo and other images referenced across pages
 - **GitHub Pages deployment** - configured via CNAME file to serve at `zacharhill.co`
 - **CI/CD** (`.github/workflows/test.yml`) - runs super-linter on push and pull requests to main/master branches
@@ -19,6 +20,7 @@ The project uses a simple static site structure:
 - **Deploy**: Push to `main` branch - GitHub Pages automatically deploys from this branch
 
 ## Important Notes
-- All HTML pages share common navigation and footer patterns - keep these consistent across files
+- All HTML pages share common navigation and footer patterns - keep these consistent across files, including the ones under `services/`
 - The site is deployed via GitHub Pages
 - CSS is centralized in a single style sheet; be careful with selector specificity to avoid unintended cascade effects
+- Always create a feature branch for changes and open a pull request rather than committing directly to `main`
