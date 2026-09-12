@@ -326,6 +326,7 @@ img {
   padding: 1.5rem;
   min-width: 20%;
   max-width: 90%;
+  text-align: center;
 }
 
 .experience-title {
