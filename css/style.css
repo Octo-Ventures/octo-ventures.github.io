@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  color: #eceff1;
+  color: #f4ece4;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -12,25 +12,28 @@ body {
 }
 
 h1 {
-  color: #eceff1;
+  color: #f4ece4;
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 700;
+  line-height: 1.1;
 }
 
 h2 {
-  color: #42d8fd;
+  color: #f4ece4;
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 h3 {
   font-size: 1.75rem;
-  font-weight: 200;
-  color: #eceff1;
+  font-weight: 600;
+  color: #f4ece4;
 }
 
 h4 {
   font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
   margin-top: 2.5rem;
   color: #fd6742;
@@ -39,14 +42,14 @@ h4 {
 h5,
 h6 {
   font-size: 1.125rem;
-  font-weight: 200;
-  color: #eceff1;
+  font-weight: 500;
+  color: #f4ece4;
 }
 
 p {
   font-size: 1.125rem;
-  font-weight: 200;
-  color: #eceff1;
+  font-weight: 400;
+  color: #f4ece4;
   margin: 0.25rem 0;
 }
 
@@ -58,7 +61,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2% 2% 1%;
-  border-bottom: 0.0125rem solid #eceff1;
+  border-bottom: 0.0125rem solid #8b7f8a;
 }
 
 header * {
@@ -66,13 +69,24 @@ header * {
 }
 
 .logo {
-  color: #eceff1;
+  align-items: center;
+  color: #f4ece4;
   cursor: pointer;
   display: flex;
   font-size: 1.75rem;
-  font-weight: 300;
+  font-weight: 600;
   text-align: left;
   text-decoration: none;
+}
+
+.logo img {
+  border: none;
+  border-radius: 0;
+  display: block;
+  height: 2.25rem;
+  max-width: none;
+  min-width: 0;
+  width: auto;
 }
 
 .navbar {
@@ -90,7 +104,7 @@ header * {
 /* Hamburger Menu */
 
 .hamburger-line {
-  background: #eceff1;
+  background: #f4ece4;
   height: 0.125rem;
   width: 1.5rem;
   display: block;
@@ -99,7 +113,7 @@ header * {
 
 .hamburger-line::before,
 .hamburger-line::after {
-  background: #eceff1;
+  background: #f4ece4;
   content: "";
   display: block;
   height: 100%;
@@ -134,7 +148,7 @@ header * {
 .menu li a {
   display: block;
   font-size: 1.5rem;
-  color: #eceff1;
+  color: #f4ece4;
   text-decoration: none;
 }
 
@@ -216,7 +230,7 @@ header * {
 .greetings {
   align-items: center;
   background-color: #1d1427;
-  color: #eceff1;
+  color: #f4ece4;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -260,7 +274,7 @@ img {
 }
 
 .descriptors {
-  font-weight: 100;
+  font-weight: 400;
   text-align: left;
   margin: 0 0 0.5em;
 }
@@ -290,12 +304,6 @@ img {
   min-width: 14%;
 }
 
-.dot {
-  color: #42d8fd;
-  font-size: 1.75rem;
-  font-weight: 200;
-}
-
 .timeline-container {
   display: flex;
   flex-flow: row wrap;
@@ -318,11 +326,12 @@ img {
   padding: 1.5rem;
   min-width: 20%;
   max-width: 90%;
+  text-align: center;
 }
 
 .experience-title {
   margin-top: 0.5rem;
-  color: #42d8fd;
+  color: #f4ece4;
 }
 
 .experience-summary {
@@ -360,7 +369,7 @@ meter {
 /* Webkit meter */
 meter::-webkit-meter-bar {
   background: none;
-  background-color: #eceff180;
+  background-color: #f4ece480;
   border-radius: 0.125rem;
 }
 
@@ -371,7 +380,7 @@ meter::-webkit-meter-optimum-value {
 /* Firefox meter */
 meter::-moz-meter-bar {
   background: none;
-  background-color: #eceff180;
+  background-color: #f4ece480;
   border-radius: 0.125rem;
 }
 
@@ -398,7 +407,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 .education-content li {
   margin: 0.5em 0;
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .photos {
@@ -529,7 +538,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 
 .service-card {
   background-color: #2a1f3d;
-  border: 0.125rem solid #42d8fd;
+  border: 0.125rem solid #8b7f8a;
   border-radius: 0.5rem;
   padding: 2rem;
   display: flex;
@@ -548,7 +557,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 }
 
 .service-card h3 {
-  color: #42d8fd;
+  color: #f4ece4;
   margin-bottom: 1rem;
   margin-top: 0;
 }
@@ -568,19 +577,31 @@ meter::-moz-meter-optimum::-moz-meter-bar {
   border-radius: 0.25rem;
   font-weight: 500;
   font-size: 1rem;
-  border: none;
+  border: 0.125rem solid transparent;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .cta-button:hover {
-  background-color: #42d8fd !important;
-  color: #1d1427 !important;
+  background-color: #1d1427 !important;
+  color: #fd6742 !important;
+  border-color: #fd6742;
   transform: translateY(-0.125rem);
 }
 
 .service-card .cta-button {
   align-self: flex-start;
+}
+
+/* Eyebrow label */
+.eyebrow {
+  color: #fd6742;
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
 }
 
 /* Hero Section */
@@ -627,7 +648,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 .benefits-list li,
 .use-cases-list li {
   margin: 0.75rem 0;
-  color: #eceff1;
+  color: #f4ece4;
 }
 
 /* Testimonials */
@@ -641,7 +662,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 
 .testimonial-card {
   background-color: #2a1f3d;
-  border: 0.125rem solid #42d8fd;
+  border: 0.125rem solid #8b7f8a;
   border-radius: 0.5rem;
   padding: 2rem;
   display: flex;
@@ -663,7 +684,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
   flex-grow: 1;
   margin-bottom: 1.5rem;
   font-style: italic;
-  color: #eceff1;
+  color: #f4ece4;
 }
 
 .testimonial-content p {
@@ -671,7 +692,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 }
 
 .testimonial-author {
-  border-top: 0.0625rem solid #42d8fd;
+  border-top: 0.0625rem solid #8b7f8a;
   padding-top: 1rem;
 }
 
@@ -688,9 +709,9 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 }
 
 .testimonial-title {
-  color: #42d8fd;
+  color: #8b7f8a;
   font-size: 0.95rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 /* Contact Page */
@@ -728,7 +749,7 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 
 .contact-note {
   font-size: 0.95rem;
-  color: #42d8fd;
+  color: #8b7f8a;
   margin-top: 2rem;
 }
 
@@ -743,8 +764,6 @@ meter::-moz-meter-optimum::-moz-meter-bar {
 .contact-mascot {
   max-width: 100%;
   height: auto;
-  border: 0.125rem solid #fd6742;
-  border-radius: 5%;
   max-height: 50vh;
 }
 

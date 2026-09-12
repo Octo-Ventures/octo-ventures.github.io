@@ -33,7 +33,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Octo-Ventures/octo-ventures.github.io">
-    <img src="./media/images/octo_ventures.png" alt="Logo" width="300" height="300">
+    <img src="./media/images/octo-mark-coral.png" alt="Logo" width="300" height="300">
   </a>
 
 <h3 align="center">Octo Ventures Website</h3>
