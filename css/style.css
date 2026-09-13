@@ -53,6 +53,14 @@ p {
   margin: 0.25rem 0;
 }
 
+img {
+  min-width: 30%;
+  max-width: 50%;
+  height: auto;
+  border: 0.125rem solid #fd6742;
+  border-radius: 5%;
+}
+
 /* Header Navbar */
 header {
   background-color: #1d1427;
@@ -263,14 +271,6 @@ header * {
 
 #topology-image {
   max-width: 100%;
-}
-
-img {
-  min-width: 30%;
-  max-width: 50%;
-  height: auto;
-  border: 0.125rem solid #fd6742;
-  border-radius: 5%;
 }
 
 .descriptors {
